@@ -92,7 +92,7 @@ def get_agentconfigurations(session_id,org_id):
         aname=agent["name"]
         aplat=agent["platform"]
         ahost=agent["agentHost"]
-        agid=agent["agentGroupId"]
+       # agid=agent["agentGroupId"]
             
         st.write( aname + "(" + ahost+")")
             
