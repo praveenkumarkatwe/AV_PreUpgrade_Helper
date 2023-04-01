@@ -221,10 +221,7 @@ def create_download_link(file_name):
         )
 
         
-st.header("Informatica Cloud Login")
-
-
-st.header("Informatica AV Upgrade Information Portal Login(GCS)")
+st.header("Informatica GCS AV Upgrade Helper")
 podoption = st.selectbox(
      'select the pod region ',
     (('emw1.dm-em','na1.dm-us','na2.dm-us','usw3.dm-us','use4.dm-us','usw5.dm-us','use6.dm-us','apse1.dm-ap','nac1.dm-na','usw1.dm1-us','usw3.dm1-us','emc1.dm1-em','apse1.dm1-apse','apne1.dm1-ap','na1.iics-icinq1','uk1.dm-uk','apauc1.dm1-apau','usw1.dm2-us','apne2.dm-apne','emse1.dm1-emse')))
