@@ -54,7 +54,7 @@ def logout(session_id):
     
 
 def get_verifiers(session_id):
-    objects_url = FRSserver+"saas/public/core/v3/objects?q=type==VERIFIER&limit=20"
+    objects_url = FRSserver+"saas/public/core/v3/objects?q=type==VERIFIER"
     #st.write(objects_url)
     headers = {"INFA-SESSION-ID": session_id}
     # Send the objects request and retrieve the JSON output
